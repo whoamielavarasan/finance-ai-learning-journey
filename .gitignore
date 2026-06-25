@@ -1,0 +1,35 @@
+# Real financial data -- NEVER commit
+transactions.csv
+salary_expenses.csv
+bofa_cc_expenses.csv
+citi_cc_expenses.csv
+cc_expenses_categorized.csv
+stmt.csv
+Statement_*.txt
+Statement_*.csv
+Citi_Bank_Statement_*.txt
+SalaryAccountTransactions.pdf
+
+# Secrets
+.env
+.env.*
+
+# Trained model
+*.joblib
+
+# Virtual environment
+finance_env/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.DS_Store
